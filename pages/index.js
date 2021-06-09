@@ -34,6 +34,7 @@ export default function Home({html}) {
 export async function getStaticProps(context) {
 	try {
 		const result = await fetch('https://news.bitcoin.com/feed/', { method: 'GET' });
+    console.log(result);
 		return {
 			props: { html: result }
 		}
