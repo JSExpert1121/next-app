@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home({html}) {
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
@@ -11,7 +11,6 @@ export default function Home({html}) {
       </Head>
 
       <main className={styles.main}>
-        <div dangerouslySetInnerHTML={{__html: html}} />
       </main>
 
       <footer className={styles.footer}>
