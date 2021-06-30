@@ -20,10 +20,10 @@ class MyDocument extends Document {
 					<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
 					<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 					<link rel="manifest" href="/manifest.json" />
-					<link rel="mask-icon" color="#5bbad5"></link>
+					<link rel="mask-icon" color="#5bbad5" />
 					<meta name="msapplication-TileColor" content="#ffffff" />
 					<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-					<meta name="theme-color" content="#ffffff"></meta>
+					<meta name="theme-color" content="#ffffff" />
 				</Head>
 				<body>
 					<Main />
